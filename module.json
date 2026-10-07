@@ -1,0 +1,60 @@
+{
+  "id": "lazydice-simplelight",
+  "title": "LazyDice. Простой свет.",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "14",
+    "verified": "14"
+  },
+  "authors": [
+    {
+      "name": "Monaxxx",
+      "flags": {}
+    }
+  ],
+  "url": "https://github.com/alexander-kozakoff/lazydice-simplelight",
+  "manifest": "https://github.com/alexander-kozakoff/lazydice-simplelight/releases/latest/download/module.json",
+  "download": "https://github.com/alexander-kozakoff/lazydice-simplelight/releases/download/v1.0.0/module.zip",
+  "bugs": "https://github.com/alexander-kozakoff/lazydice-simplelight/issues",
+  "license": "https://github.com/alexander-kozakoff/lazydice-simplelight/blob/main/LICENSE",
+  
+  "flags": {
+    "canUpload": true
+  },
+  "esmodules": [
+    "scripts/main.mjs"
+  ],
+  "styles": [
+    "styles/simplelight.css"
+  ],
+  "languages": [
+    { "lang": "ru", "name": "Русский", "path": "lang/ru.json" },
+    { "lang": "en", "name": "English", "path": "lang/en.json" }
+  ],
+  "packs": [
+    {
+      "name": "light",
+      "label": "Свет",
+      "path": "packs/light",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "LazyDice Modules",
+      "sorting": "m",
+      "color": "#D24C17",
+      "packs": [
+        "light"
+      ],
+      "folders": []
+    }
+  ],
+  "description": ""
+}

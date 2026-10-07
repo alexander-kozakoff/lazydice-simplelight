@@ -1,0 +1,52 @@
+{
+  "LAZYDICE": {
+    "LightSource": "Light source",
+    "Suffix": {
+      "Partial": "partly used",
+      "Burning": "lit"
+    },
+    "Time": {
+      "Minutes": "{m} min",
+      "Hours": "{h} h",
+      "HoursMinutes": "{h} h {m} min"
+    },
+    "Palette": {
+      "Title": "Light sources",
+      "NoSources": "No light sources",
+      "Remaining": "{item} — {time} left",
+      "NoFuel": "{item} — empty, needs a flask of oil",
+      "HoodHint": "Right-click: lower the hood",
+      "HoodLowered": "hood lowered (right-click: raise)"
+    },
+    "Notify": {
+      "NoOil": "{item}: no flask of oil",
+      "Refueled": "{item}: refueled, used: {flask}",
+      "HoodNeedsLit": "The hood can only be lowered on a lit lantern",
+      "NoHood": "{item}: this item has no hood",
+      "SplitStack": "{item}: split the stack first, only one item can be dropped"
+    },
+    "Chat": {
+      "HoodDown": "<b>{name}</b> lowers the hood on: {item}.",
+      "HoodUp": "<b>{name}</b> raises the hood on: {item}.",
+      "BurnedOut": "<b>{name}</b>: {item} burns out.",
+      "OutOfOil": "<b>{name}</b>: {item} goes out, the oil is spent.",
+      "PileBurned": "{item} burns out.",
+      "PileOutOfOil": "{item} goes out, the oil is spent.",
+      "LiedBurned": "{item} burned out while lying on the ground.",
+      "LiedOutOfOil": "{item} went out while lying on the ground: the oil is spent."
+    },
+    "ItemDialog": {
+      "Control": "Light",
+      "Title": "Light: {item}",
+      "Hint": "When enabled, these settings override the automatic ones based on the item name, and the hood is disabled.",
+      "Enabled": "Light source",
+      "Bright": "Bright light",
+      "Dim": "Dim light",
+      "Color": "Color",
+      "Alpha": "Color intensity",
+      "Animation": "Animation",
+      "None": "None",
+      "Save": "Save"
+    }
+  }
+}
